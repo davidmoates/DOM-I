@@ -40,3 +40,37 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+// Created Selectors start here
+
+const nav = document.querySelector(".container header nav");
+const anchor = document.querySelectorAll("nav a");
+const logoImg = document.querySelector("#logo-img");
+const ctaSection = document.querySelector(".cta");
+const ctaDiv = document.querySelector(".cta-text");
+const ctaH1 = document.querySelector(".cta-text h1");
+const ctaButton = document.querySelector(".cta-text button");
+const ctaImg = document.querySelector("#cta-img");
+const mainCon = document.querySelector(".main-content");
+const mainTop = document.querySelector(".main-content .top-content");
+const mainText = document.querySelectorAll(".main-content .text-content");
+const middleImg = document.querySelector("#middle-img");
+const bottomCon = document.querySelector(".bottom-content");
+const bottomText = document.querySelectorAll(".bottom-content .text-content");
+const contactSection = document.querySelector(".contact");
+
+
+
+// ## Task 1: Create selectors to point your data into elements
+// * [ ] Create selectors by using any of the DOM element's methods
+// * [ ] Note that IDs have been used on all images.  Use the IDs to update src path content
+//
+// ## Task 2: Update the HTML with the JSON data
+// * [ ] Remember, NO direct updating of the HTML source is allowed.
+// * [ ] Using your selectors, update the content to match the example file.
+// * [ ] Remember to update the src attributes on images
+//
+// ## Task 3: Add new content
+// * [ ] Change the color of the navigation text to be green.
+// * [ ] Utilize `.appendChild()` and `.prepend()` to add two new items to the navigation system. You can call them whatever you want.
+// * [ ] Check your work by looking at the [original html](original.html) in the browser
