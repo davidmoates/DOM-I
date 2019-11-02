@@ -92,32 +92,32 @@ const is = ' Is';
 const awesome = ' Awesome';
 ctaH1.innerHTML = dom + '<br />' + is + '<br />' + awesome;
 
-ctaButton.innerText = 'Get Started';
+ctaButton.textContent = 'Get Started';
 
 // Main Content - Top Content
-mainH4[0].innerText = 'Features';
-mainP[0].innerText = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
-mainH4[1].innerText = 'About';
-mainP[1].innerText = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+mainH4[0].textContent = 'Features';
+mainP[0].textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+mainH4[1].textContent = 'About';
+mainP[1].textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 
 // Main Content - Bottom content
-bottomH4[0].innerText = 'Services';
-bottomP[0].innerText = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
-bottomH4[1].innerText = 'Product';
-bottomP[1].innerText = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
-bottomH4[2].innerText = 'Vision';
-bottomP[2].innerText = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+bottomH4[0].textContent = 'Services';
+bottomP[0].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+bottomH4[1].textContent = 'Product';
+bottomP[1].textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+bottomH4[2].textContent = 'Vision';
+bottomP[2].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 
 // Contact
-contactH4.innerText = 'Contact';
+contactH4.textContent = 'Contact';
 const address = '123 Way 456 Street';
 const cityState = 'Somewhere, USA';
 contactP[0].innerHTML = address + '<br />' + cityState;
-contactP[1].innerText = '1 (888) 888-8888';
-contactP[2].innerText = 'sales@greatidea.io';
+contactP[1].textContent = '1 (888) 888-8888';
+contactP[2].textContent = 'sales@greatidea.io';
 
 // Footer
-footerP.innerText = 'Copyright Great Idea! 2018';
+footerP.textContent = 'Copyright Great Idea! 2018';
 
 //
 // ## Task 3: Add new content
